@@ -1,3 +1,9 @@
+## Changes implemented from: https://github.com/NVlabs/stylegan2-ada-pytorch/pull/3
+* Saving training samples as JPG to save a lot of space during training.
+* Automatically set the resume value of kimg, value is parsed from default network name format "network-snapshot-000100.pkl".
+* Automaticalyl set the resume value of augmentation strength, value is parsed from log.txt from training.
+* Added custom training config "homu"
+
 ## StyleGAN2-ADA &mdash; Official PyTorch implementation
 
 ![Teaser image](./docs/stylegan2-ada-teaser-1024x252.png)
